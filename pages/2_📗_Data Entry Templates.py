@@ -8,7 +8,7 @@ if 'loggedIn' not in st.session_state:
 if st.session_state['loggedIn'] == False:
     switch_page('Home')
     st.stop()
-    
+  1  
 # 1-- Remove the 'Streamlit' label at Page title --    
 def set_page_title(title):
     st.sidebar.markdown(unsafe_allow_html=True, body=f"""
