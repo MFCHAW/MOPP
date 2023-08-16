@@ -9,7 +9,7 @@ if st.session_state['loggedIn'] == False:
     switch_page('Home')
     st.stop()
     
-# -- Remove the 'Streamlit' label at Page title --    
+# 1-- Remove the 'Streamlit' label at Page title --    
 def set_page_title(title):
     st.sidebar.markdown(unsafe_allow_html=True, body=f"""
         <iframe height=0 srcdoc="<script>
